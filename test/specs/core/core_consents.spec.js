@@ -1,9 +1,8 @@
-import {getConsentDataString, getVendorConsentData} from '../../../src/scripts/core/core_consents';
+import { getConsentDataString, getVendorConsentData } from '../../../src/scripts/core/core_consents';
 import * as CoreCookies from '../../../src/scripts/core/core_cookies';
 import * as CoreVendorInformation from '../../../src/scripts/core/core_vendor_information';
-import {OIL_SPEC} from '../../../src/scripts/core/core_constants';
-
-const {ConsentString} = require('consent-string');
+import { OIL_SPEC } from '../../../src/scripts/core/core_constants';
+import ConsentString from '../../../src/scripts/core/core_consent-string';
 
 describe('consents', () => {
 

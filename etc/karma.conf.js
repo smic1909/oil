@@ -112,6 +112,8 @@ module.exports = function (config) {
 
     colors: true,
 
+    concurrency: 1,
+
     logLevel: config.LOG_INFO
   });
   config.proxies = {

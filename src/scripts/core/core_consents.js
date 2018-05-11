@@ -1,8 +1,9 @@
 import {getSoiCookie} from './core_cookies';
 import {getPurposes, getVendorList, getVendors} from './core_vendor_information';
 import {OIL_SPEC} from './core_constants';
+import ConsentString from './core_consent-string';
 
-const {ConsentString} = require('consent-string');
+// HINT: We need to really load this with Webpack to let the babel transformations kick in
 
 export function getVendorConsentData(vendorIds) {
   return {
