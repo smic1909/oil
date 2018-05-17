@@ -1,6 +1,6 @@
 # oil.js - Open Source Opt-In Layer
 
-![](oil/src/assets/images/landing_page/logo.png)
+![](/src/assets/images/landing_page/logo.png)
 
 ## Build Monitoring (works currently only from internal network)
 [![Build Status](https://jenkins.ipool.asideas.de/buildStatus/icon?job=OIL-build)](https://jenkins.ipool.asideas.de/job/OIL-build/)
